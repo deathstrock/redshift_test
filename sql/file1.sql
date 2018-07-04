@@ -1,7 +1,7 @@
 DROP DATABASE employee;
 CREATE DATABASE employee;
 \c employee;
-CREATE TABLE employee (
+CREATE TABLE employees (
     emp_no      INT             NOT NULL,
     birth_date  DATE            NOT NULL,
     first_name  VARCHAR(14)     NOT NULL,
