@@ -1,6 +1,6 @@
-CREATE DATABASE employees;
-\c employees;
-CREATE TABLE employees (
+CREATE DATABASE employee;
+\c employee;
+CREATE TABLE employee (
     emp_no      INT             NOT NULL,
     birth_date  DATE            NOT NULL,
     first_name  VARCHAR(14)     NOT NULL,
