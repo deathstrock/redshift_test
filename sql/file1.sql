@@ -1,4 +1,4 @@
-
+DROP DATABASE employee;
 CREATE DATABASE employee;
 \c employee;
 CREATE TABLE employee (
