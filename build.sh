@@ -1,6 +1,7 @@
 #1/bin/bash
 #Connection String
-psql -h redshift-test.c6tsxarzz8qq.ap-northeast-1.redshift.amazonaws.com -U testuser -d testdb -p 5439 -f /sql/file1.sql
+export PGPASSWORD="Testuser123"
+psql -h redshift-test.c6tsxarzz8qq.ap-northeast-1.redshift.amazonaws.com -U testuser -w -d testdb -p 5439 -f /sql/file1.sql
 
 #fetch data
 #copy <tableName> from '<s3 address.csv >'
