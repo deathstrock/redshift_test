@@ -1,2 +1,2 @@
 #ignoring one file
-build.sh
+/build.sh
